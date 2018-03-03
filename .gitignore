@@ -3,3 +3,6 @@ node_modules
 
 # dist folder
 dist
+
+# temp folder
+tmp
