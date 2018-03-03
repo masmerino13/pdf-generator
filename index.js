@@ -15,7 +15,7 @@ const HTML_TEMP = `
  https://www.npmjs.com/package/phantom-html-to-pdf
 */
 const settings = {
-  filename: 'output',
+  filename: process.env.FILENAME || 'output',
   phamtomSettings: {
     html: HTML_TEMP
   }
