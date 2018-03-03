@@ -1,3 +1,3 @@
 export default {
-  TMP_DIR: '../../temp'
+  TMP_DIR: 'tmp'
 }
